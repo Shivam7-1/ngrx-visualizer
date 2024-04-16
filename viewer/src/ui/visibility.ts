@@ -54,7 +54,7 @@ export class VisibilityUI {
    * tree)
    */
   setContent(content: any, graph: NgrxGraph) {
-    this.content.innerHTML = '';
+    this.content.innerText = '';
     const margin = 5;
     let nonNodeIDCtr = 0;
     const recurse = (obj: any) => {
