@@ -44,7 +44,7 @@ export class SearchUI {
 
   /** Set the results of the search box */
   setResults(results: Node[]) {
-    this.searchResults.innerHTML = '';
+    this.searchResults.innerText = '';
     for (let i = 0; i < results.length; i++) {
       const currentResult = results[i];
       const elem = document.createElement('a');
